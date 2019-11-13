@@ -1,0 +1,38 @@
+
+
+
+.centerthis {
+	text-align: center !important;
+	position: relative !important;
+
+}
+
+
+#twenty {
+
+	text-align: center;
+	position: relative;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#Alpha {
+
+	text-align: center;
+	position: relative;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bolder;
+
+}
+
+
+.bottompic {
+	text-align: center;
+	position: relative;
+	margin: 5% 0% 0% 0%;
+
+}
+
+#img2{
+	width: 50%;
+}
