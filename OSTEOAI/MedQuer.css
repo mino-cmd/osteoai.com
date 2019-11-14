@@ -29,7 +29,7 @@
    width:75%!important;
 
 	}
-}
+
 
 #BETA {
 	text-align: center;
@@ -45,10 +45,24 @@ font-size: x-large;
 	text-align: center;
 margin-left: auto!important;
 margin-right: auto!important;
-font-size: large;
 
 }
 
+#jumbotron-fluid {
+	text-align: center;
+		text-align: center;
+   margin-left: auto!important;
+   margin-right: auto!important;
+}
+
+#centerbutt {
+	text-align: center;
+	text-align: center;
+margin-left: auto!important;
+margin-right: auto!important;
+
+}
+}
 @media screen and (min-width:650px) {
 
     
@@ -71,7 +85,7 @@ margin-right: auto!important;
 width: 75%!important;
 
 }
-}
+
 
 #BETA {
 text-align: center;
@@ -87,10 +101,29 @@ text-align: center;
 text-align: center;
 margin-left: auto!important;
 margin-right: auto!important;
-font-size: large;
 
 }
+
+#jumbotron-fluid {
+	text-align: center;
+		text-align: center;
+   margin-left: auto!important;
+   margin-right: auto!important;
+}
+
+#centerbutt {
+	text-align: center;
+	text-align: center;
+margin-left: auto!important;
+margin-right: auto!important;
+}
+}
+
 @media screen and (max-width:600px) {
+	#centerbutt {
+		float: right;
+		display: block;
+	}
 	.bottompic 
 	 {
 	  float: right;
@@ -99,6 +132,11 @@ font-size: large;
   }
   
   @media screen and (max-width:600px) {
+	  #centerbutt {
+		position: absolute;
+		right:0;
+		bottom:0;
+	  }
 	.bottompic {
 	  position: absolute;
 	  right:0;
