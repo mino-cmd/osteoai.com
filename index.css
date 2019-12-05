@@ -1,25 +1,47 @@
 html {
-  height: 100%;
   scroll-behavior: smooth;
 }
 
 body {
   background-color: transparent;
+
 }
 
-.centerthis > #img1 {
-  z-index: 1;
+
+.Box1 {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  height: auto;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#BETA {
-  text-align: center;
-  font-family: "Avenir";
-  /*free alternative to Avenir
-	
-	font-family: 'Nunito', sans-serif;
-	*/
-  font-weight: bolder;
+#img1 {   
+  max-width: auto;
+  overflow: hidden;
+  width: auto;
+  height: auto;
 }
+
+.parentitem {
+  max-width: auto;
+  overflow: hidden;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.txtbox {
+  overflow: hidden;
+  display: block;
+}
+
 
 /*save for later/
 #tell {
@@ -36,25 +58,25 @@ body {
 
 .bottompic {
   overflow: hidden;
-  position: absolute;
-  bottom: 0px;
   display: block;
-  width: 100%;
 }
+
 .parentbox {
   max-width: 50%;
   overflow: hidden;
   background-color: transparent;
-  width: 80%;
-  height: 80%;
+  width: auto;
+  height: auto;
   border: none;
   margin-left: auto;
   margin-right: auto;
 }
 
 #img2 {
-  max-width: 100%;
+  position: absolute;
+  bottom: 0px;
+  max-width: auto;
   overflow: hidden;
-  width: 100%;
+  width: auto;
   height: auto;
 }
